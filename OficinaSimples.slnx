@@ -1,0 +1,13 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/OficinaSimples.Domain/OficinaSimples.Domain.csproj" />
+    <Project Path="src/OficinaSimples.Infra.Data/OficinaSimples.Infra.Data.csproj" />
+    <Project Path="src/OficinaSimples.Services/OficinaSimples.Services.csproj" />
+    <Project Path="src/OficinaSimples.UI.Desktop/OficinaSimples.UI.Desktop.csproj" Id="50a95948-7865-4e1c-86c0-9c75a77ac17a">
+      <Deploy Solution="Debug|*" />
+    </Project>
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/OficinaSimples.Tests/OficinaSimples.Tests.csproj" Id="531ec399-7803-4f67-bb78-045d4da96db5" />
+  </Folder>
+</Solution>
