@@ -3,6 +3,6 @@
     public class UnitTest1
     {
         [Fact]
-        public void SmokeTest() => Assert.True(true);
+        public void SmokeTest() => Assert.True(true) ;
     }
 }
